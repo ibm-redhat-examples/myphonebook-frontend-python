@@ -53,3 +53,16 @@ Python 2.7.10
 python3 -V
 Python 3.7.1
 ```
+
+While we could run python3 for everything, it might complicate other system activities so instead we will set python3 as the default version of python to use on my user. 
+
+To do so we are going to modify the PATH with the following instruction:
+```
+export PATH="/usr/local/opt/python/libexec/bin:/usr/local/sbin:$PATH"
+```
+With this instruction, you have set precedence to your python3 installation over the default python installation, and you can verify it by running:
+
+python -V
+Python 3.7.1
+pip -V
+pip 18.1 from /usr/local/lib/python3.7/site-packages/pip (python 3.7)
