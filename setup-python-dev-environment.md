@@ -62,7 +62,12 @@ export PATH="/usr/local/opt/python/libexec/bin:/usr/local/sbin:$PATH"
 ```
 With this instruction, you have set precedence to your python3 installation over the default python installation, and you can verify it by running:
 
+```
+
 python -V
 Python 3.7.1
+
 pip -V
 pip 18.1 from /usr/local/lib/python3.7/site-packages/pip (python 3.7)
+
+```
