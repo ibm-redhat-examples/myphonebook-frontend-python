@@ -22,3 +22,20 @@ Let’s have everything up to date and check that system is OK before we start:
 brew update && brew upgrade
 brew doctor
 ```
+
+The results should 
+read something like:
+```
+
+brew doctor
+Your system is ready to brew.
+
+```
+If you get warnings, we recommend that you fix them before continuing to next step as your life could be complicated in the future steps.
+
+No lets check to see if python 3 has been installed:
+
+```
+$ python3 --version
+```
+
