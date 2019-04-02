@@ -39,3 +39,8 @@ No lets check to see if python 3 has been installed:
 $ python3 --version
 ```
 
+If not, use this command to install python3:
+```
+brew install python
+```
+
