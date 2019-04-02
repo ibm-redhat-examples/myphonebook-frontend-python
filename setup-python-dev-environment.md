@@ -63,11 +63,32 @@ export PATH="/usr/local/opt/python/libexec/bin:/usr/local/sbin:$PATH"
 With this instruction, you have set precedence to your python3 installation over the default python installation, and you can verify it by running:
 
 ```
-
 python -V
 Python 3.7.1
 
 pip -V
 pip 18.1 from /usr/local/lib/python3.7/site-packages/pip (python 3.7)
+```
+
+## Virtualenvwrapper installation and configuration
+Now that we have updated the python and pip configuration we can now setup the virtualenvwrapper installation will be much easier.
+
+and just as explained in the installation guide
 
 ```
+  $ cd $HOME (or home directory)
+
+Run following commands
+
+  $ pip install virtualenv
+
+  $ pip install virtualenvwrapper
+
+Now add it to shell startup file (.zshrc):
+
+ $ export WORKON_HOME=$HOME/.virtualenvs
+
+ $ export PROJECT_HOME=$HOME/Devel
+
+ $ source /usr/local/bin/virtualenvwrapper.sh
+ ```
