@@ -14,3 +14,11 @@ But have run across a few other good articles on setting up a Python development
 
 - https://packaging.python.org/guides/installing-using-pip-and-virtualenv/
 - https://sourabhbajaj.com/mac-setup/Python/virtualenv.html
+
+
+# Setup Steps
+Let’s have everything up to date and check that system is OK before we start:
+```
+brew update && brew upgrade
+brew doctor
+```
