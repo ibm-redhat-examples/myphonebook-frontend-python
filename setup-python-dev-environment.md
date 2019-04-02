@@ -44,3 +44,12 @@ If not, use this command to install python3:
 brew install python
 ```
 
+At this point you probably have installed both python 2.7 and python 3 installed, however if you type in python -V, you will still get python 2.7 as its still the default, and you will only get python3 if you explicitly run python3.
+
+```
+python -V
+Python 2.7.10
+
+python3 -V
+Python 3.7.1
+```
